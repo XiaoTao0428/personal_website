@@ -1,0 +1,12 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "types": [ "vite/client" ]  // 提供import.meta.env 上 Vite 注入的环境变量的类型定义
+}
